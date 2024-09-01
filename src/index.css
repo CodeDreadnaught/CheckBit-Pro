@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    /* outline: 1px solid red;   */
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  input , textarea {
+    background: transparent;
+  }
+  input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+  }
+  input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    @apply hidden;
+  }
+}
+
+@layer utilities {
+  .mode-transition {
+    @apply transition-[all_3s_ease-in-out];
+}
+.center {
+  @apply grid place-items-center;
+}
+}
