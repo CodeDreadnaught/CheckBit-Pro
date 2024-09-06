@@ -3,7 +3,7 @@ const Footer = () => {
 
     return (
         <footer className="h-[7vh] center">
-            <p>&copy;{currentYear} CheckBit Pro | All Rights Reserved</p>
+            <p>&copy;{currentYear} CheckBit Pro<span className="hidden lg:inline"> | All Rights Reserved</span></p>
         </footer>
     );
 };

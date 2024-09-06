@@ -31,7 +31,7 @@
 
 @layer utilities {
   .mode-transition {
-    @apply transition-[all_3s_ease-in-out];
+    @apply transition-[all_0.35s_linear];
 }
 .center {
   @apply grid place-items-center;
