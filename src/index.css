@@ -5,9 +5,6 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    /* outline: 1px solid red;   */
-  }
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
