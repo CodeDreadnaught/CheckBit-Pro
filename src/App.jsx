@@ -5,9 +5,10 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <Header />
+    <section className="h-screen w-screen center font-semibold text-4xl text-[maroon]">CDNLKM</section>
+      {/* <Header />
       <Main />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
